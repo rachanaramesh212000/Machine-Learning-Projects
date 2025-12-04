@@ -1,5 +1,6 @@
 # 🏠Housing Rent Category Prediction
 ---
+<img width="708" height="697" alt="Image" src="https://github.com/user-attachments/assets/0f439689-30ef-42f9-9d65-73b8e9232077" />
 
 
 ## 📌 Problem Statement
@@ -20,55 +21,55 @@ All implementation details (code, plots, experiments) are inside the `.ipynb` no
 ---
 ## 📂 Data Description
 
-BHK	:Number of Bedrooms	Numeric
+**BHK**	:Number of Bedrooms	Numeric
 
-Size :	House size (sq. ft)	Numeric
+**Size** :	House size (sq. ft)	Numeric
 
-City	:City Name	Categorical
+**City** :City Name	Categorical
 
-Furnishing Status	:Furnished / Semi-Furnished / Unfurnished	Categorical
+**Furnishing Status**	:Furnished / Semi-Furnished / Unfurnished	Categorical
 
-Tenant Type:	Family / Bachelors / Company	Categorical
+**Tenant Type** :	Family / Bachelors / Company	Categorical
 
-Rent Category	:Low / Medium / High	Target Variable (Categorical)
+**Rent Category**	:Low / Medium / High	Target Variable (Categorical)
 
 ### 1️⃣ Data Cleaning & Preparation
 
-Checked and handled missing values
+- Checked and handled missing values
 
-Removed duplicate entries
+- Removed duplicate entries
 
-Encoded categorical variables using Label Encoding / One-Hot Encoding
+- Encoded categorical variables using Label Encoding / One-Hot Encoding
 
-Scaled numeric values using StandardScaler
+- Scaled numeric values using StandardScaler
 
-Converted Rent column into categories (Low / Medium / High)
+- Converted Rent column into categories (Low / Medium / High)
 
 ---
 ### 2️⃣Exploratory Data Analysis (EDA)
 
-Distribution of rent categories
+- Distribution of rent categories
 
-Impact of BHK on rent category
+- Impact of BHK on rent category
 
-Boxplot: Size vs Category
+- Boxplot: Size vs Category
 
-City-wise rent segmentation
+- City-wise rent segmentation
 
-Furnishing status vs category
+- Furnishing status vs category
 
-Tenant type analysis
+- Tenant type analysis
 
 ---
 ### 3️⃣ Feature Engineering
 
-Created price_per_sqft = Rent / Size (if required)
+- Created price_per_sqft = Rent / Size (if required)
 
-Binning rent into Low / Medium / High
+- Binning rent into Low / Medium / High
 
-Converted categorical to numeric
+- Converted categorical to numeric
 
-Feature selection using correlation and Chi-Square
+- Feature selection using correlation and Chi-Square
 
 ---
 ### Model Building
@@ -78,9 +79,9 @@ Model Used: Multi-Class Logistic Regression
 ---
 ### Model Evaluation
 
-Accuracy Score	: How correctly model predicts rent category
+- Accuracy Score	: How correctly model predicts rent category
 
-Confusion Matrix : Shows actual vs predicted
+- Confusion Matrix : Shows actual vs predicted
 
 ### Results & Key Insights
 
