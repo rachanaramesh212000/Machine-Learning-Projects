@@ -1,5 +1,5 @@
 # 🧠 Employee Wellness Prediction – Mental Health Treatment Classifier
-<img width="708" height="697" alt="image" src="https://github.com/user-attachments/assets/9f6984e3-6349-42f0-95c3-eae9ef4df51a" />
+<img width="708" height="697" alt="Image" src="https://github.com/user-attachments/assets/6d6d9cf2-fc7c-44a0-b175-991509c5ccc4" />
 
 This repository contains a **Machine Learning Project** that predicts whether an employee is likely to **need mental health treatment**, based on demographic details, work environment and perceptions about mental health.
 
